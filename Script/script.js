@@ -19,21 +19,15 @@ questions.forEach(question => {
 
 
 
+
 //traversing the dom
 
-/*let button = document.querySelectorAll('button')
+/*let buttons = document.querySelectorAll('button')
 
-button.forEach(button => {
+buttons.forEach(button => {
 		button.addEventListener('click', (e) => {
-	let container = 	button
-	.closest('.question-container')
-	.querySelector('.answer');
-	
-		let hr = 	button
-		.closest('.question-container')
-		.querySelector('hr');
 		
-		hr.classList.toggle('show-text');
-		container.classList.toggle('show-text');
+		let questions = button.closest('.question-container');
+		questions.classList.toggle('show-text');
 		})
 })*/
