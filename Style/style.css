@@ -37,9 +37,9 @@ section {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		padding: 0 1em;
+  	padding: 0 1em;
 		text-transform: capitalize;
-		letter-spacing: 1px;	
+		letter-spacing: 1px;
 }
 
 .question-title,
@@ -59,7 +59,6 @@ button {
 		background: none;
 		color: gold;
 	 font-size: 1.3em;
-		min-width: 5px;		
 		transition: transform 500ms ease-in-out;		
 		user-select: none;
 		-webkit-user-select: none;
@@ -71,10 +70,9 @@ button:focus {
 }
 
 .answer {
+	 	padding: 0.2em 1.5em;
+	 	text-align: justify;
 	 	display: none;
-		padding: 0.2em 0 0.2em 1.5em;
-		width: 100%;
-		word-wrap: break-word;
 }
 
 .minus {
@@ -87,7 +85,7 @@ button:focus {
 }
 
 .show-text .answer {
-  display: block;
+	 display: block;
 }
 
 .show-text .minus {

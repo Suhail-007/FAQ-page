@@ -1,5 +1,5 @@
 //using selectors inside the element
-/*
+
 const questions = document.querySelectorAll('.question-container');
 
 questions.forEach(question => {
@@ -14,13 +14,13 @@ questions.forEach(question => {
 				})
 				question.classList.toggle('show-text');
 		})
-})*/
+})
 
 
 
 
 //traversing the dom
-
+/*
 let buttons = document.querySelectorAll('button')
 
 buttons.forEach(button => {
@@ -30,3 +30,4 @@ buttons.forEach(button => {
 		questions.classList.toggle('show-text');
 		})
 })
+*/
