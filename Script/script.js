@@ -1,5 +1,5 @@
 //using selectors inside the element
-
+/*
 const questions = document.querySelectorAll('.question-container');
 
 questions.forEach(question => {
@@ -14,15 +14,14 @@ questions.forEach(question => {
 				})
 				question.classList.toggle('show-text');
 		})
-})
-
+})*/
 
 
 
 
 //traversing the dom
 
-/*let buttons = document.querySelectorAll('button')
+let buttons = document.querySelectorAll('button')
 
 buttons.forEach(button => {
 		button.addEventListener('click', (e) => {
@@ -30,4 +29,4 @@ buttons.forEach(button => {
 		let questions = button.closest('.question-container');
 		questions.classList.toggle('show-text');
 		})
-})*/
+})

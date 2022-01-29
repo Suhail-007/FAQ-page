@@ -7,19 +7,20 @@ body {
 		width: 100vw;
 		height: 100vh;
 		display: flex;
+		flex-direction: row;
 		align-items: center;
-		justify-content: center;
+		flex-wrap: wrap;
 }
 
 main {
 	 display: grid;
-  place-items: center;
+	 place-items: center;
   width: 100%;
+		padding: 1em 0;
 }
 
 section {
 		width: 90%;
-		max-width: 500px;
 		padding: 0 1em;		
 		border-radius: 10px;
 		box-shadow:	1px 0px 5px rgba(0,0,0,0.3);
@@ -38,7 +39,7 @@ section {
 		justify-content: space-between;
 		padding: 0 1em;
 		text-transform: capitalize;
-		letter-spacing: 1px;		
+		letter-spacing: 1px;	
 }
 
 .question-title,
@@ -58,7 +59,7 @@ button {
 		background: none;
 		color: gold;
 	 font-size: 1.3em;
-		min-width: 10px;		
+		min-width: 5px;		
 		transition: transform 500ms ease-in-out;		
 		user-select: none;
 		-webkit-user-select: none;
@@ -71,8 +72,9 @@ button:focus {
 
 .answer {
 	 	display: none;
-		max-width: 500px;
-		padding: 0.2em 1.5em;
+		padding: 0.2em 0 0.2em 1.5em;
+		width: 100%;
+		word-wrap: break-word;
 }
 
 .minus {
@@ -102,6 +104,10 @@ button:focus {
 }
 
 section {
+		max-width: 500px;
+}
+
+.answer {
 		max-width: 500px;
 }
 
